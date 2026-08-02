@@ -1,22 +1,61 @@
 aid: tryprism
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tryprism.png
 name: Tryprism
-description: Tryprism is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Prism (tryprism.com) is a San Francisco, Y Combinator-backed AI-powered
+  recruiting agency that delivers qualified talent leads to hiring teams faster and
+  more affordably than traditional recruiters. Clients describe the role they need
+  to fill, Prism's AI handles sourcing, screening, and candidate outreach end-to-end,
+  and clients interview only pre-screened candidates. Pricing is 15% of first-year
+  salary per hire (versus the typical 20-30% agency fee) plus a retainer to initiate
+  and prioritize the search, charged only when a hire is made. As of this profile
+  Prism operates as a managed recruiting service and publishes no public developer
+  API, SDK, documentation, or discovery surface.
 url: https://raw.githubusercontent.com/api-evangelist/tryprism/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Recruiting
+- Talent Acquisition
+- Hiring
+- AI
+- Staffing
+- HR Tech
+- Recruiting Agency
+- Y Combinator
 apis: []
+common:
+- type: Website
+  url: https://tryprism.com
+- type: Pricing
+  url: https://tryprism.com/pricing
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
+  notes: AI recruiting agency (managed service), no public API/SDK/docs surface;
+    api.tryprism.com and docs.tryprism.com both 404, no security.txt or llms.txt.
