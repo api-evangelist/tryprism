@@ -1,0 +1,30 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://tryprism.com/pricing
+sources:
+- https://tryprism.com/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: ad-valorem
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: 'Recruiting agency pricing: 15% of first-year salary per role due on hire, plus an unspecified retainer.
+  Page notes traditional agencies charge 20-30%. No software/API pricing.'
+plan_count: 2
+plans:
+- name: Success fee
+  price_text: 15% of first-year salary, per role
+  price: 15
+  period: per-use
+  unit: per role
+  included_quota: Sourcing, screening and outreach run end-to-end
+- name: Retainer
+  price_text: a retainer to kick off the search and keep your role our priority
+  period: none
